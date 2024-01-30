@@ -1,0 +1,1 @@
+This is a new folder that will contain all of our visualizations for the paper

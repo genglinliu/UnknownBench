@@ -1,0 +1,4 @@
+model_name,task_name,corr_answerable,corr_unanswerable
+vicuna-7b-v1.5,FalseQA,-0.8824975032927699,-1.0
+vicuna-7b-v1.5,NEC,-0.9957279816817377,-1.0
+vicuna-7b-v1.5,RefuNQ,0.9969652946121442,-1.0

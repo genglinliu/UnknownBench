@@ -1,0 +1,497 @@
+task_name: RefuNQ, task_mode: answerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+0          2.0        9    0.428571
+1          3.0        6    0.600000
+2          5.0       15    0.294118
+3          7.0      174    0.386667
+4          8.0      664    0.488595
+5          9.0      227    0.606952
+
+task_name: RefuNQ, task_mode: answerable, model_name: gpt-4-0613
+   uncertainty num_true  percentage
+0          0.0       36    0.382979
+1          1.0        8    0.148148
+2          2.0        3    0.125000
+3          3.0        3    0.176471
+4          5.0       19    0.345455
+5          6.0        2    0.333333
+6          7.0       64    0.418301
+7          8.0      146    0.449231
+8          9.0      120    0.452830
+9         10.0      816    0.641005
+
+task_name: RefuNQ, task_mode: answerable, model_name: claude-2
+   uncertainty num_true  percentage
+1          3.0        9    0.134328
+2          5.0       28    0.247788
+3          7.0      236    0.317631
+4          8.0      547    0.423047
+5          9.0       25    0.520833
+6         10.0     True    1.000000
+
+task_name: RefuNQ, task_mode: answerable, model_name: chat-bison-001
+    uncertainty num_true  percentage
+0           0.0       21    0.368421
+2           2.0        1    0.142857
+3           3.0        1    0.166667
+4           4.0        1    0.500000
+5           5.0        2    0.064516
+6           6.0        1    0.090909
+7           7.0       10    0.149254
+8           8.0      402    0.321086
+9           9.0      420    0.526976
+10         10.0        7    0.583333
+
+task_name: RefuNQ, task_mode: answerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+3          7.0        1    0.500000
+4          8.0      742    0.328609
+
+task_name: RefuNQ, task_mode: answerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+1          9.0      650    0.326633
+2         10.0        5    0.294118
+
+task_name: RefuNQ, task_mode: answerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+1          2.0        8    0.173913
+2          6.0       25    0.223214
+3          7.0       19    0.228916
+4          8.0      564    0.390311
+5          9.0      237    0.426259
+
+task_name: RefuNQ, task_mode: answerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0      316    0.343105
+1         10.0      387    0.313869
+
+task_name: RefuNQ, task_mode: answerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0       73    0.127400
+1          7.0      469    0.278504
+2          8.0        3    0.333333
+
+task_name: RefuNQ, task_mode: answerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0        1    0.166667
+2          6.0        9    0.209302
+3          7.0        8    0.258065
+4          8.0      387    0.284350
+5          9.0      375    0.464109
+6         10.0        9    0.818182
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+0          2.0      237    0.434066
+1          3.0       61    0.338889
+2          5.0      168    0.348548
+4          7.0      182    0.227500
+5          8.0        8    0.050314
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: gpt-4-0613
+   uncertainty num_true  percentage
+0          0.0     1088    0.778255
+1          1.0      238    0.391447
+2          2.0        3    0.068182
+4          5.0        3    0.150000
+6          8.0        4    0.080000
+8         10.0        1    0.040000
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: claude-2
+   uncertainty num_true  percentage
+0          3.0      171    0.154472
+1          5.0        9    0.031359
+2          7.0       14    0.022727
+3          8.0        1    0.006250
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: chat-bison-001
+   uncertainty num_true  percentage
+0          0.0      104    0.206759
+2          2.0        9    0.155172
+3          3.0        4    0.142857
+5          5.0       23    0.093117
+6          6.0        2    0.064516
+7          7.0       12    0.052174
+8          8.0       27    0.029001
+9          9.0        2    0.016807
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+1          6.0     True    1.000000
+3          8.0      223    0.103002
+4         10.0     True    1.000000
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+1          9.0       29    0.016553
+2         10.0        1    0.012658
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+0          0.0        9    0.300000
+1          2.0       23    0.181102
+3          5.0        2    1.000000
+4          6.0        9    0.069231
+5          7.0      186    0.244737
+6          8.0       85    0.085599
+7          9.0        4    0.033613
+8         10.0     True    1.000000
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0       16    0.017391
+2         10.0       20    0.016194
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0      257    0.344504
+1          7.0      252    0.176594
+
+task_name: RefuNQ, task_mode: unanswerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0       85    0.508982
+1          2.0        2    0.500000
+2          3.0       81    0.669421
+3          6.0      230    0.408526
+4          7.0       44    0.232804
+5          8.0      162    0.153119
+6          9.0        2    0.028571
+
+task_name: FalseQA, task_mode: answerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+0          0.0        1    0.500000
+2          2.0       39    0.268966
+3          3.0       19    0.253333
+5          5.0       35    0.180412
+6          6.0        1    0.250000
+7          7.0       76    0.097063
+8          8.0       40    0.043860
+9          9.0        4    0.017699
+
+task_name: FalseQA, task_mode: answerable, model_name: gpt-4-0613
+    uncertainty num_true  percentage
+0           0.0       58    0.828571
+1           1.0       31    0.407895
+2           2.0        9    0.180000
+3           3.0        3    0.073171
+5           5.0        7    0.100000
+6           6.0        1    0.166667
+7           7.0       12    0.085714
+8           8.0       26    0.086093
+9           9.0       17    0.046575
+10         10.0       65    0.052335
+
+task_name: FalseQA, task_mode: answerable, model_name: claude-2
+   uncertainty num_true  percentage
+0          0.0        1    0.500000
+2          3.0       79    0.298113
+3          5.0       36    0.125874
+4          7.0       34    0.032015
+5          8.0       26    0.039755
+6          9.0        1    0.011765
+
+task_name: FalseQA, task_mode: answerable, model_name: chat-bison-001
+    uncertainty num_true  percentage
+0           0.0       57    0.575758
+1           1.0        1    0.100000
+2           2.0        8    0.571429
+3           3.0        4    0.400000
+5           5.0       16    0.275862
+6           6.0        8    0.320000
+7           7.0       23    0.178295
+8           8.0      105    0.096507
+9           9.0       49    0.062183
+10         10.0        8    0.062500
+
+task_name: FalseQA, task_mode: answerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+0          2.0        4    0.800000
+1          6.0        3    0.600000
+2          7.0        1    0.333333
+3          8.0      326    0.139555
+4         10.0        1    0.333333
+
+task_name: FalseQA, task_mode: answerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+0          0.0     True     1.00000
+1          9.0       73     0.07909
+2         10.0        5     0.10000
+
+task_name: FalseQA, task_mode: answerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+0          0.0        6    0.500000
+1          2.0        9    0.281250
+2          5.0     True    1.000000
+3          6.0        4    0.222222
+4          7.0      151    0.330416
+5          8.0      149    0.127897
+6          9.0       71    0.108067
+
+task_name: FalseQA, task_mode: answerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0      116    0.064373
+1         10.0       27    0.055102
+
+task_name: FalseQA, task_mode: answerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0      124    0.129301
+1          7.0      139    0.099215
+
+task_name: FalseQA, task_mode: answerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0       25    0.641026
+1          2.0        1    0.200000
+2          3.0       14    0.368421
+3          6.0       17    0.184783
+4          7.0       23    0.237113
+5          8.0      123    0.098479
+6          9.0       46    0.061008
+7         10.0        2    0.021978
+
+task_name: FalseQA, task_mode: unanswerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+0          0.0       17    0.850000
+1          1.0        3    1.000000
+2          2.0      912    0.793734
+3          3.0      154    0.706422
+4          5.0      149    0.586614
+5          6.0        3    0.333333
+6          7.0      270    0.514286
+7          8.0       62    0.366864
+8          9.0        5    0.357143
+9         10.0        1    0.333333
+
+task_name: FalseQA, task_mode: unanswerable, model_name: gpt-4-0613
+    uncertainty num_true  percentage
+0           0.0      671    0.772152
+1           1.0      376    0.693727
+2           2.0       75    0.555556
+3           3.0       21    0.477273
+4           4.0        2    1.000000
+5           5.0       23    0.522727
+6           6.0        1    0.333333
+7           7.0       31    0.287037
+8           8.0       48    0.324324
+9           9.0       16    0.275862
+10         10.0      162    0.393204
+
+task_name: FalseQA, task_mode: unanswerable, model_name: claude-2
+   uncertainty num_true  percentage
+0          0.0       69    0.821429
+1          3.0     1113    0.730315
+2          5.0       88    0.429268
+3          7.0       69    0.189560
+4          8.0       40    0.236686
+5          9.0        1    0.090909
+
+task_name: FalseQA, task_mode: unanswerable, model_name: chat-bison-001
+   uncertainty num_true  percentage
+0          0.0      899    0.705651
+1          1.0        3    0.428571
+2          2.0       50    0.485437
+3          3.0       15    0.428571
+4          5.0       68    0.459459
+5          6.0       14    0.304348
+6          7.0       60    0.397351
+7          8.0      119    0.274194
+8          9.0       32    0.299065
+9         10.0       17    0.414634
+
+task_name: FalseQA, task_mode: unanswerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+0          0.0        3    0.750000
+1          2.0        8    0.500000
+3          7.0        3    1.000000
+4          8.0     1115    0.481434
+5         10.0        3    0.428571
+
+task_name: FalseQA, task_mode: unanswerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+0          9.0      118    0.136732
+1         10.0       15    0.283019
+
+task_name: FalseQA, task_mode: unanswerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+0          0.0       89    0.801802
+1          2.0      156    0.699552
+2          3.0     True    1.000000
+3          4.0        1    0.500000
+4          5.0       56    0.848485
+5          6.0        8    0.242424
+6          7.0      798    0.632330
+7          8.0      146    0.296748
+8          9.0       41    0.301471
+
+task_name: FalseQA, task_mode: unanswerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0      217    0.110041
+1         10.0       41    0.114846
+
+task_name: FalseQA, task_mode: unanswerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0      594    0.397059
+1          7.0      227    0.261220
+
+task_name: FalseQA, task_mode: unanswerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0      454    0.662774
+1          1.0     True    1.000000
+2          2.0       25    0.531915
+3          3.0      165    0.523810
+4          6.0       54    0.315789
+5          7.0       62    0.466165
+6          8.0      199    0.259452
+7          9.0       63    0.319797
+8         10.0       18    0.367347
+
+task_name: NEC, task_mode: answerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+1          2.0       11    0.323529
+2          3.0        6    0.166667
+3          5.0       12    0.169014
+4          6.0        1    0.333333
+5          7.0       97    0.148318
+6          8.0       42    0.034855
+7          9.0        1    0.014706
+
+task_name: NEC, task_mode: answerable, model_name: gpt-4-0613
+    uncertainty num_true  percentage
+0           0.0       45    0.775862
+1           1.0       72    0.576000
+2           2.0       18    0.300000
+3           3.0       26    0.329114
+5           5.0       28    0.259259
+6           6.0        2    0.111111
+7           7.0       44    0.107056
+8           8.0       47    0.084991
+9           9.0       14    0.031250
+10         10.0       12    0.058252
+
+task_name: NEC, task_mode: answerable, model_name: claude-2
+   uncertainty num_true  percentage
+0          3.0       61    0.246964
+1          5.0       41    0.109920
+2          7.0       57    0.052486
+3          8.0       19    0.052632
+
+task_name: NEC, task_mode: answerable, model_name: chat-bison-001
+   uncertainty num_true  percentage
+0          0.0       15    0.483871
+1          2.0        3    0.375000
+3          5.0       12    0.400000
+4          6.0        2    0.181818
+5          7.0       61    0.205387
+6          8.0      111    0.072266
+7          9.0        2    0.015385
+
+task_name: NEC, task_mode: answerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+0          8.0      103    0.049927
+
+task_name: NEC, task_mode: answerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+0          9.0      126    0.103363
+1         10.0        9    0.098901
+
+task_name: NEC, task_mode: answerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+0          0.0        2    0.500000
+1          2.0        5    0.500000
+2          6.0        4    0.068966
+3          7.0       26    0.208000
+4          8.0      136    0.078704
+5          9.0        6    0.045113
+
+task_name: NEC, task_mode: answerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0      144    0.077419
+1         10.0        7    0.037634
+
+task_name: NEC, task_mode: answerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0       41    0.341667
+1          7.0      164    0.084536
+
+task_name: NEC, task_mode: answerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0       15    0.652174
+1          3.0        6    0.666667
+2          5.0     True    1.000000
+3          6.0       68    0.359788
+4          7.0       21    0.161538
+5          8.0      118    0.074873
+
+task_name: NEC, task_mode: unanswerable, model_name: gpt-3.5-turbo-0613
+   uncertainty num_true  percentage
+0          2.0       87    0.966667
+1          3.0      115    0.839416
+2          5.0      193    0.784553
+3          6.0        1    0.500000
+4          7.0      644    0.533554
+5          8.0      144    0.364557
+6          9.0     True    1.000000
+
+task_name: NEC, task_mode: unanswerable, model_name: gpt-4-0613
+   uncertainty num_true  percentage
+0          0.0     1363    0.849751
+1          1.0      170    0.521472
+2          2.0        3    0.107143
+3          3.0        4    0.222222
+4          5.0        4    0.121212
+6          7.0        1    0.040000
+7          8.0        2    0.055556
+
+task_name: NEC, task_mode: unanswerable, model_name: claude-2
+   uncertainty num_true  percentage
+0          3.0      762    0.840132
+1          5.0      393    0.615023
+2          7.0      116    0.223938
+3          8.0        1    0.071429
+
+task_name: NEC, task_mode: unanswerable, model_name: chat-bison-001
+   uncertainty num_true  percentage
+0          0.0       70    0.257353
+1          2.0        4    0.363636
+2          5.0       29    0.143564
+3          6.0        3    0.062500
+4          7.0       77    0.158111
+5          8.0      167    0.159351
+
+task_name: NEC, task_mode: unanswerable, model_name: Llama-2-7b-chat-hf
+   uncertainty num_true  percentage
+1          8.0      313    0.150916
+2         10.0     True    1.000000
+
+task_name: NEC, task_mode: unanswerable, model_name: Llama-2-7b-hf
+   uncertainty num_true  percentage
+0          9.0      140    0.103397
+1         10.0       10    0.064516
+
+task_name: NEC, task_mode: unanswerable, model_name: Llama-2-13b-chat-hf
+   uncertainty num_true  percentage
+0          0.0        9    0.346154
+1          2.0       20    0.322581
+2          6.0       31    0.142857
+3          7.0       83    0.220159
+4          8.0      248    0.183704
+5          9.0        2    0.054054
+
+task_name: NEC, task_mode: unanswerable, model_name: Llama-2-13b-hf
+   uncertainty num_true  percentage
+0          0.0      167    0.084901
+1         10.0        2    0.018018
+
+task_name: NEC, task_mode: unanswerable, model_name: vicuna-7b-v1.5
+   uncertainty num_true  percentage
+0          5.0       95    0.333333
+1          7.0      393    0.219186
+
+task_name: NEC, task_mode: unanswerable, model_name: vicuna-13b-v1.5
+   uncertainty num_true  percentage
+0          0.0       80    0.650407
+1          3.0        2    0.285714
+2          5.0        3    1.000000
+3          6.0      233    0.385124
+4          7.0       63    0.229927
+5          8.0      146    0.137089
+

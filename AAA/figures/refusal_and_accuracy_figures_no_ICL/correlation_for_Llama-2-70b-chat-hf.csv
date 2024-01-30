@@ -1,0 +1,4 @@
+model_name,task_name,corr_answerable,corr_unanswerable
+Llama-2-70b-chat-hf,FalseQA,-0.9271055679031612,-0.864308977082116
+Llama-2-70b-chat-hf,NEC,-0.9355565430986771,-0.9729205064143764
+Llama-2-70b-chat-hf,RefuNQ,0.919064203949733,-0.7609945144824612
