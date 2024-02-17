@@ -1,4 +1,0 @@
-model_name,task_name,corr_answerable,corr_unanswerable
-Llama-2-13b-hf,FalseQA,-1.0,1.0
-Llama-2-13b-hf,NEC,-1.0,-0.9999999999999999
-Llama-2-13b-hf,RefuNQ,-1.0,-0.2757783405967567

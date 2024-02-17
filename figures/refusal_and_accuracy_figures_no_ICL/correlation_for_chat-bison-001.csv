@@ -1,4 +1,0 @@
-model_name,task_name,corr_answerable,corr_unanswerable
-chat-bison-001,FalseQA,-0.6274605039023745,-0.7199664868394321
-chat-bison-001,NEC,-0.7219276618240336,-0.7897409028534644
-chat-bison-001,RefuNQ,0.48300730417153404,-0.614948309917469

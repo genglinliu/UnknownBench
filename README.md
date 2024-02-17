@@ -1,6 +1,6 @@
 # README
 
-This is the repository for the paper Revisit Hallucination in the Era of Large Language Models
+This is the repository for the ACL 2024 submission
 
 
 ## Setup for running the logit experiments on LLama-2 
@@ -15,7 +15,7 @@ This is the repository for the paper Revisit Hallucination in the Era of Large L
 Tasks: `FalseQA`, `NEC`, `RefuNQ` (each task has two modes: `answerable` and `unanswerable`)
 
 ```python
-data_path = f"AAA/data/{task_name}/{task_name}_{mode}.json"  
+data_path = f"/data/{task_name}/{task_name}_{mode}.json"  
 ```
 
 Results are stored at `experiment_outputs/Logits`
@@ -50,20 +50,13 @@ Our work contains three tasks:
 
 To run different models on these tasks, we have 
 
-`python src/run.py --prompt baseline`
+`python src/run_*.py --prompt baseline` 
 
-Notes for Xingyao on 8/18: 
- - Currently this script runs on NEC and FalseQA sequencially, and only with gpt-3.5. All other models and tasks are hidden. 
- - --prompt should just be followed by the `baseline` flag as other prompt checks are still under construction.
- - for now we can just generate responses and do eval later (with human eval too)
 
 ### Evaluation
 
-To evaluate the outputs of the LLMs, run
+To evaluate the outputs of the LLMs and visualize the analysis, see the notebooks in `/scripts`.
 
-`python scripts/evaluation/NEC_and_FalseQA_eval.py` for FalseQA and NEC.
-
-`python scripts/evaluation/PaperCitation_SemanticScholar_verify.py` for PaperCitation
 
 ## Prompts
 The prompts used in this repo can be found in the `prompts/` folder. 
