@@ -62,10 +62,10 @@ The prompts used in this repo can be found in the `prompts/` folder.
 ## Citation
 
 ```
-@misc{liu2023prudent,
-      title={Prudent Silence or Foolish Babble? Examining Large Language Models' Responses to the Unknown}, 
+@misc{liu2024examining,
+      title={Examining LLMs' Uncertainty Expression Towards Questions Outside Parametric Knowledge}, 
       author={Genglin Liu and Xingyao Wang and Lifan Yuan and Yangyi Chen and Hao Peng},
-      year={2023},
+      year={2024},
       eprint={2311.09731},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
